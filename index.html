@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sakthisaravanakumar — Front-End &amp; Full-Stack Engineer</title>
+  <meta name="description"
+    content="Portfolio of Sakthisaravanakumar, a front-end and full-stack engineer in Chennai building fast, accessible interfaces for the web.">
+  <meta name="author" content="Sakthisaravanakumar">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0a0c">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b8bff'/%3E%3Ctext x='16' y='23' font-family='system-ui,sans-serif' font-size='19' font-weight='700' fill='%230a0a0c' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-name">Sakthisaravanakumar</span>
+      </a>
+      <label class="nav-burger" for="nav-toggle">
+        <span class="visually-hidden">Toggle navigation menu</span>
+        <span class="burger-bar" aria-hidden="true"></span>
+        <span class="burger-bar" aria-hidden="true"></span>
+        <span class="burger-bar" aria-hidden="true"></span>
+      </label>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <label class="nav-scrim" for="nav-toggle" aria-hidden="true"></label>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow" data-reveal>Chennai, India — Available for new work</p>
+        <h1 class="hero-title" data-reveal>
+          <span class="hero-name">Sakthisaravanakumar</span>
+          <span class="hero-role">Front-End &amp; Full-Stack Engineer</span>
+        </h1>
+        <p class="hero-lede" data-reveal>
+          I build fast, accessible interfaces for the web — design systems, product
+          front-ends, and the APIs behind them. Seven years of shipping software
+          that people actually enjoy using.
+        </p>
+        <div class="hero-actions" data-reveal>
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+        <ul class="hero-meta" data-reveal>
+          <li>Open to full-time roles</li>
+          <li>Remote friendly</li>
+          <li>UTC +5:30</li>
+        </ul>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">01 — About</p>
+          <h2 class="section-title">A short introduction</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p data-reveal>
+              I started out writing PHP form handlers in a small agency in Chennai,
+              and never really left the web. Since then I've worked across the
+              stack, but my attention keeps returning to the front end — the part
+              people touch, where a 200&nbsp;millisecond delay is the difference
+              between a good product and a frustrating one.
+            </p>
+            <p data-reveal>
+              Most of my work sits in design systems and product front-ends: turning
+              a set of Figma frames into a component library that a dozen engineers
+              can build from without stepping on each other. I care about
+              accessibility as a baseline rather than a pass at the end, and about
+              performance budgets that get defended in code review.
+            </p>
+            <p data-reveal>
+              Outside of work I maintain two small open-source packages, read far
+              more than I write, and make a slow filter coffee that my flatmate
+              refuses to drink.
+            </p>
+          </div>
+          <div class="about-side">
+            <ul class="stat-list">
+              <li class="stat" data-reveal>
+                <span class="stat-num">7</span>
+                <span class="stat-label">Years shipping to production</span>
+              </li>
+              <li class="stat" data-reveal>
+                <span class="stat-num">40+</span>
+                <span class="stat-label">Projects delivered end to end</span>
+              </li>
+              <li class="stat" data-reveal>
+                <span class="stat-num">12</span>
+                <span class="stat-label">Teams I've worked with</span>
+              </li>
+            </ul>
+            <a class="text-link" href="#contact" data-reveal>Let's build something &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">02 — Projects</p>
+          <h2 class="section-title">Selected work</h2>
+          <p class="section-sub">
+            A few things I've built recently. Happy to walk through the
+            architecture or the trade-offs behind any of them.
+          </p>
+        </header>
+        <ul class="project-grid">
+
+          <li class="card project-card" data-reveal>
+            <div class="tile tile-a" aria-hidden="true"><span class="tile-glyph">Ld</span></div>
+            <div class="project-body">
+              <h3 class="project-title">Ledgerly</h3>
+              <ul class="chips">
+                <li class="chip">TypeScript</li>
+                <li class="chip">React</li>
+                <li class="chip">PostgreSQL</li>
+              </ul>
+              <p class="project-text">
+                Double-entry accounting tool for small studios. Real-time
+                reconciliation, CSV import that survives messy exports, and an audit
+                trail that actually reads well.
+              </p>
+              <p class="project-links">
+                <a class="text-link" href="#projects">Live site</a>
+                <a class="text-link" href="#projects">Case study</a>
+              </p>
+            </div>
+          </li>
+
+          <li class="card project-card" data-reveal>
+            <div class="tile tile-b" aria-hidden="true"><span class="tile-glyph">Tp</span></div>
+            <div class="project-body">
+              <h3 class="project-title">Tidepool</h3>
+              <ul class="chips">
+                <li class="chip">Next.js</li>
+                <li class="chip">Go</li>
+                <li class="chip">Redis</li>
+              </ul>
+              <p class="project-text">
+                Scheduling platform for community clinics. Offline-tolerant
+                booking flow, conflict detection at the database layer, and a
+                reminder queue that has never once sent a duplicate.
+              </p>
+              <p class="project-links">
+                <a class="text-link" href="#projects">Live site</a>
+                <a class="text-link" href="#projects">Case study</a>
+              </p>
+            </div>
+          </li>
+
+          <li class="card project-card" data-reveal>
+            <div class="tile tile-c" aria-hidden="true"><span class="tile-glyph">Nb</span></div>
+            <div class="project-body">
+              <h3 class="project-title">Northbound</h3>
+              <ul class="chips">
+                <li class="chip">React</li>
+                <li class="chip">GraphQL</li>
+                <li class="chip">Figma</li>
+              </ul>
+              <p class="project-text">
+                Design system of 62 components across four products. Token-driven
+                theming, full keyboard support, and documentation that engineers
+                actually read because it was written with them.
+              </p>
+              <p class="project-links">
+                <a class="text-link" href="#projects">Live site</a>
+                <a class="text-link" href="#projects">Case study</a>
+              </p>
+            </div>
+          </li>
+
+          <li class="card project-card" data-reveal>
+            <div class="tile tile-d" aria-hidden="true"><span class="tile-glyph">Pf</span></div>
+            <div class="project-body">
+              <h3 class="project-title">Pale Fire</h3>
+              <ul class="chips">
+                <li class="chip">Vue</li>
+                <li class="chip">Node</li>
+                <li class="chip">CSS</li>
+              </ul>
+              <p class="project-text">
+                Long-form reading app with offline sync. Progressive enhancement
+                first, so the whole thing is readable before a single byte of
+                JavaScript arrives.
+              </p>
+              <p class="project-links">
+                <a class="text-link" href="#projects">Live site</a>
+                <a class="text-link" href="#projects">Case study</a>
+              </p>
+            </div>
+          </li>
+
+          <li class="card project-card" data-reveal>
+            <div class="tile tile-e" aria-hidden="true"><span class="tile-glyph">Qr</span></div>
+            <div class="project-body">
+              <h3 class="project-title">Quarry</h3>
+              <ul class="chips">
+                <li class="chip">Astro</li>
+                <li class="chip">Tailwind</li>
+                <li class="chip">Edge</li>
+              </ul>
+              <p class="project-text">
+                Documentation site shipping 98 on Lighthouse across every page. Zero
+                client-side JavaScript on the critical path, which turned out to be
+                the whole idea.
+              </p>
+              <p class="project-links">
+                <a class="text-link" href="#projects">Live site</a>
+                <a class="text-link" href="#projects">Case study</a>
+              </p>
+            </div>
+          </li>
+
+          <li class="card project-card" data-reveal>
+            <div class="tile tile-f" aria-hidden="true"><span class="tile-glyph">Vl</span></div>
+            <div class="project-body">
+              <h3 class="project-title">Vellum</h3>
+              <ul class="chips">
+                <li class="chip">TypeScript</li>
+                <li class="chip">Web Components</li>
+                <li class="chip">Vite</li>
+              </ul>
+              <p class="project-text">
+                A 4&nbsp;KB embeddable comment widget that any CMS can adopt. No
+                framework lock-in, no tracking, no layout shift.
+              </p>
+              <p class="project-links">
+                <a class="text-link" href="#projects">Live site</a>
+                <a class="text-link" href="#projects">Case study</a>
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">04 — Skills</p>
+          <h2 class="section-title">Tools of the trade</h2>
+          <p class="section-sub">
+            A working list rather than a badge sheet. The honest answer is that I
+            reach for the boring, well-understood option unless there's a reason
+            not to.
+          </p>
+        </header>
+        <div class="skill-grid">
+
+          <article class="card skill-card" data-reveal>
+            <h3 class="skill-title">Front-end</h3>
+            <ul class="skill-list">
+              <li>TypeScript</li>
+              <li>React &amp; Next.js</li>
+              <li>Vue 3</li>
+              <li>Modern CSS &amp; Tailwind</li>
+              <li>Accessibility (WCAG 2.2)</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card" data-reveal>
+            <h3 class="skill-title">Back-end</h3>
+            <ul class="skill-list">
+              <li>Node.js &amp; Go</li>
+              <li>PostgreSQL</li>
+              <li>Redis</li>
+              <li>REST &amp; GraphQL</li>
+              <li>Docker</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card" data-reveal>
+            <h3 class="skill-title">Tooling</h3>
+            <ul class="skill-list">
+              <li>Vite &amp; Astro</li>
+              <li>Vitest &amp; Playwright</li>
+              <li>GitHub Actions</li>
+              <li>Lighthouse CI</li>
+              <li>Storybook</li>
+            </ul>
+          </article>
+
+          <article class="card skill-card" data-reveal>
+            <h3 class="skill-title">Practice</h3>
+            <ul class="skill-list">
+              <li>Design systems</li>
+              <li>Technical writing</li>
+              <li>Code review &amp; mentoring</li>
+              <li>Performance budgets</li>
+              <li>Figma handoff</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">05 — Testimonials</p>
+          <h2 class="section-title">Kind words</h2>
+        </header>
+        <ul class="quote-grid">
+
+          <li class="card quote-card" data-reveal>
+            <blockquote class="quote-text">
+              <p>
+                &ldquo;He rebuilt our front end in four months and cut our page
+                weight by two thirds. The part I did not expect was how much
+                easier it became to ship — the design system did the heavy
+                lifting.&rdquo;
+              </p>
+            </blockquote>
+            <p class="quote-attrib">
+              <span class="avatar avatar-a" aria-hidden="true">AR</span>
+              <span class="quote-name">Anitha Ramesh<span class="quote-role">Head of Product, Northbridge
+                  Labs</span></span>
+            </p>
+          </li>
+
+          <li class="card quote-card" data-reveal>
+            <blockquote class="quote-text">
+              <p>
+                &ldquo;Sakthi is the rare engineer who will tell you the
+                accessible thing is also the simpler thing. Our audit findings
+                dropped to almost nothing.&rdquo;
+              </p>
+            </blockquote>
+            <p class="quote-attrib">
+              <span class="avatar avatar-b" aria-hidden="true">MK</span>
+              <span class="quote-name">Marcus Klein<span class="quote-role">CTO, Tidewell Software</span></span>
+            </p>
+          </li>
+
+          <li class="card quote-card" data-reveal>
+            <blockquote class="quote-text">
+              <p>
+                &ldquo;He inherited a codebase nobody wanted to touch and left it
+                documented, tested, and two sprints faster. I have hired him twice
+                now.&rdquo;
+              </p>
+            </blockquote>
+            <p class="quote-attrib">
+              <span class="avatar avatar-c" aria-hidden="true">SD</span>
+              <span class="quote-name">Sneha Durai<span class="quote-role">Engineering Manager, Kaveri
+                  Digital</span></span>
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="writing">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">06 — Writing</p>
+          <h2 class="section-title">Recent notes</h2>
+        </header>
+        <ul class="post-list">
+
+          <li data-reveal>
+            <a class="post-row" href="#writing">
+              <time class="post-date" datetime="2026-07-14">14 Jul 2026</time>
+              <span class="post-title">Your design tokens are a public API, treat them like one</span>
+              <span class="post-meta">8 min read</span>
+            </a>
+          </li>
+
+          <li data-reveal>
+            <a class="post-row" href="#writing">
+              <time class="post-date" datetime="2026-04-02">2 Apr 2026</time>
+              <span class="post-title">Scroll-driven animations, and when they are the wrong tool</span>
+              <span class="post-meta">6 min read</span>
+            </a>
+          </li>
+
+          <li data-reveal>
+            <a class="post-row" href="#writing">
+              <time class="post-date" datetime="2025-11-21">21 Nov 2025</time>
+              <span class="post-title">A performance budget you can actually defend in review</span>
+              <span class="post-meta">11 min read</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">07 — Contact</p>
+          <h2 class="section-title">Let's talk</h2>
+          <p class="section-sub">
+            Open to full-time roles, contract work, and interesting open-source
+            collaborations. I reply to everything, usually within a day.
+          </p>
+        </header>
+        <div class="contact-actions" data-reveal>
+          <a class="btn btn-primary btn-lg"
+            href="mailto:hello@sakthisaravanakumar.dev">hello@sakthisaravanakumar.dev</a>
+        </div>
+        <ul class="link-list" data-reveal>
+          <li>
+            <a class="text-link" href="https://github.com/sakthisaravanakumar003-bit">GitHub<span
+                class="visually-hidden"> — profile</span></a>
+          </li>
+          <li>
+            <a class="text-link"
+              href="https://www.linkedin.com/in/sakthi-saravana-kumar-798164385?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn<span
+                class="visually-hidden"> — profile</span></a>
+          </li>
+          <li>
+            <a class="text-link" href="#contact">Read.cv<span class="visually-hidden"> — profile</span></a>
+          </li>
+        </ul>
+        <p class="contact-note" data-reveal>
+          Currently at Northbridge Labs · open to new conversations from
+          <span class="nowrap">March 2027</span>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-copy">&copy; 2026 Sakthisaravanakumar. All rights reserved.</p>
+      <a class="text-link" href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
